@@ -1,0 +1,149 @@
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header ul {
+  list-style-type: none;
+  margin: 30px;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding: 15px;
+  overflow: hidden;
+  background-color: #f2f2f2;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+header li {
+  float: left;
+}
+
+header li a,i {
+  text-align: center;
+  text-decoration: none;
+}
+
+
+/* Style the center */
+
+.content{
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+ 
+.box {
+  float: left;
+  width: 20%;
+  padding: 20px;
+  line-height: 3%;
+}
+    .clearfix{
+        margin-top: 0%;
+        margin-bottom: 2%;
+        float: middle;
+    }
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+    float: middle;
+}
+
+#menu li {
+	list-style: none;
+	padding: 80px;
+	display: inline; 
+    font-size: 20px;
+}
+
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 35%;
+  height: 300px; /* only for demonstration, should be removed */
+  padding: 10px;
+}
+
+
+article {
+  float: left;
+  padding: 0px;
+  width: 50%;
+  height: 0px; /* only for demonstration, should be removed */
+}
+
+
+.border1{
+  border-left: 6px solid #00b386;
+  border-bottom:1px solid black;
+  border-top:1px solid black;
+    border-right:150px solid #00b386;
+}
+
+.border2{
+  border:1px solid black;
+     border-right:150px solid;
+}
+
+div.absolute{
+  position: absolute;
+  top: 380px;
+  right: 125px;
+  width: 195px;
+  height: 88px;
+  color: white;
+}
+div.absolute1{
+  position: absolute;
+  top: 485px;
+  right: 125px;
+  width: 195px;
+  height: 88px;
+  color: white;
+}
+div.absolute2{
+  position: absolute;
+  top: 590px;
+  right: 125px;
+  width: 195px;
+  height: 88px;
+  color: white;
+}
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.button {
+  background-color: #00e6b8;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+  margin: 4px 2px;
+  cursor: pointer;
+  align-content: center;
+position: absolute;
+  top: 110%;
+  left: 45%;
+}
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+</style>
